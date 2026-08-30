@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "hotbar_to_chest",
+  "version": "${version}",
+  "name": "Hotbar To Chest",
+  "description": "Continuously moves complete stacks from the player's hotbar into an open chest or ender chest.",
+  "authors": ["Mahdi"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.mahdi.hotbartochest.HotbarToChestClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": ">=0.141.1"
+  }
+}
